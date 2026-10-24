@@ -1,3 +1,6 @@
+// el patron result: manejar el éxito o el fallo de una operación de forma explícita y declarativa,
+// sin necesidad de lanzar excepciones para el control de flujo.
+
 package com.acme.catchup.platform.shared.application.result;
 
 import java.util.Optional;
