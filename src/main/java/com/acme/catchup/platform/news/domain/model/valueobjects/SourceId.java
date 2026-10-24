@@ -20,4 +20,8 @@ public record SourceId(String Value) {
             throw new IllegalArgumentException(PATTERN_MESSAGE_KEY);
         }
     }
+
+    public String value() {
+        return Value;
+    }
 }
